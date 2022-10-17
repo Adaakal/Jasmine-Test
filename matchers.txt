@@ -1,0 +1,11 @@
+.toEqual(obj) 
+checks that the value is the same (eg, different lists with same values match)
+
+.toBe(obj)
+is the same object (eg, different lists with the same values doesn't match)
+
+.toContain(obj)
+does object or array contain this item?
+
+.not.
+add before matchre to invert (eg expect(...).not.toEqual(7))
